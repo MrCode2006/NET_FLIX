@@ -1,0 +1,84 @@
+body{
+    background: rgb(0,0,0,0.7) url(https://assets.nflxext.com/ffe/siteui/vlv3/bebd95d0-65f9-41a9-9d12-4794db63653e/web/IN-en-20250922-TRIFECTA-perspective_5e75cfb4-3797-4f17-866b-181ff91a51dd_large.jpg);
+    background-blend-mode: multiply;
+}
+#logo{
+    margin-left: 50px;
+}
+
+#lang{
+    position:absolute;
+    margin-left: 60%;
+    margin-top: 1%;
+    padding: 1%;
+    border: 50px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+.sign {
+    position: absolute;
+  margin-left: 67%;
+  margin-top: 1%;
+  background-color: red;
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sign:hover {
+  background-color: darkred;
+}
+#main-part{
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+}
+
+#head{
+    font-size: 80px;
+    font-weight: bold;
+}
+#price{
+    font-size: 20px;
+}
+#email{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.267);
+    padding: 19px 100px;
+    margin-left: 10% ;
+}
+#starting{
+    background-color: red;
+    color: white;
+    padding: 19px 50px;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#trending{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 10%;
+    padding: 10px 12px;
+}
+#contentlist{
+    background-color: black;
+   
+}
+#contentimages{
+    
+    margin: 80px;
+    width: 200px;
+    height: 100px;
+}
